@@ -30,7 +30,7 @@ Here is an example of a minimal test case that will pass.
 
 require_once("vendor/autoload.php");
 
-use Kevintweber\PhpunitMarkupValidators\Assert\AssertHtml5;
+use Kevintweber\PhpunitMarkupValidators\Assert\AssertHTML5;
 
 class HtmlTest extends PHPUnit_Framework_TestCase
 {
