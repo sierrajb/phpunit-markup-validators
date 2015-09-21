@@ -47,7 +47,7 @@ abstract class Connector implements ConnectorInterface
         }
 
         $curlOptArray = $curlOptArray + array(CURLOPT_RETURNTRANSFER => true,
-                                              CURLOPT_TIMEOUT => 10, );
+                                              CURLOPT_TIMEOUT => 500, );
 
         // Throttle calls (if necessary).
         Throttle::delay(get_class($this));
